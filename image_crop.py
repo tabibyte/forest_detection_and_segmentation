@@ -25,6 +25,6 @@ def crop_and_save_image(image_path, output_folder):
         print(f"Error: {e}")
 
 
-input_image_path = "forest map mask.png"
+input_image_path = "mask binary.png"
 output_folder_path = "dataset_mask_output"
 crop_and_save_image(input_image_path, output_folder_path)

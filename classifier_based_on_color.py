@@ -43,6 +43,6 @@ source_folder = "dataset_output"
 search_folder = "dataset_mask_output"
 destination_no_color = "non_forest"
 destination_with_color = "forest"
-color_to_find = (255, 0, 42)
+color_to_find = (255, 255, 255)
 
 move_images_by_color(search_folder, source_folder, destination_no_color, destination_with_color, color_to_find)
