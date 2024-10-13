@@ -46,7 +46,7 @@ TRAIN_DATASET = tf.keras.utils.image_dataset_from_directory(
   DATA_DIR_PATH,
   validation_split=0.1,
   subset="training",
-  seed=123,
+  seed=42,
   image_size=(IMG_HEIGHT, IMG_WIDTH),
   batch_size=BATCH_SIZE)
 
@@ -54,7 +54,7 @@ VALIDATION_DATASET = tf.keras.utils.image_dataset_from_directory(
   DATA_DIR_PATH,
   validation_split=0.1,
   subset="validation",
-  seed=123,
+  seed=42,
   image_size=(IMG_HEIGHT, IMG_WIDTH),
   batch_size=BATCH_SIZE)
 
